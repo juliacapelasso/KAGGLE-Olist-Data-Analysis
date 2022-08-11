@@ -11,3 +11,8 @@ order_delivered_customer_date datetime,
 order_estimated_delivery_date datetime
 
 )
+
+insert into db_act_ORDERS
+select * from [dbo].[olist_orders_dataset]
+
+select * from [dbo].[db_act_ORDERS]
