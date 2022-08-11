@@ -8,3 +8,8 @@ customer_city nvarchar (50),
 customer_state char (2)
 
 )
+
+insert into db_act_CUSTOMER 
+select * from [dbo].[olist_customers_dataset]
+
+select * from [dbo].[db_act_CUSTOMER]
