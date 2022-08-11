@@ -12,4 +12,4 @@ geolocation_state nvarchar (2)
 insert into db_act_GEOLOCATION 
 select * from [dbo].[olist_geolocation_dataset]
 
-select * from [dbo].[db_act_CUSTOMER]
+select * from [dbo].[db_act_GEOLOCATION]
