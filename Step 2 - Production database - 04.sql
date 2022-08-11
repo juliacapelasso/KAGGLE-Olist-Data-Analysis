@@ -12,5 +12,5 @@ payment_value float
 insert into db_act_PAYMENTS
 select * from [dbo].[olist_order_payments_dataset]
 
-select * from [dbo].[db_act_CUSTOMER]
+select * from [dbo].[db_act_PAYMENTS]
 
