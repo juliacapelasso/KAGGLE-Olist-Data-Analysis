@@ -1,3 +1,4 @@
+
 select top 10 * from [dbo].[olist_customers_dataset]
 select top 10 * from [dbo].[olist_geolocation_dataset]
 select top 10 * from [dbo].[olist_order_items_dataset]
