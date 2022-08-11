@@ -14,4 +14,4 @@ freight_value float
 insert into db_act_ORDER_ITENS
 select * from [dbo].[olist_order_items_dataset]
 
-select * from [dbo].[db_act_CUSTOMER]
+select * from [dbo].[db_act_ORDER_ITENS]
